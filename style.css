@@ -1,0 +1,30 @@
+.part1 h2 {
+    color: red;
+}
+
+.part1 p {
+    color: white;
+    background-color: black;
+}
+
+.part2 h2 {
+    color: green;
+}
+
+.part2 p {
+    color: green;
+    background-color: darkred;
+}
+
+.part3 p,
+.part3 div p {
+    color: green;
+}
+
+.part4 p:not(:last-child) {
+    color: inherit;
+}
+
+.part4 p:last-child {
+    color: green;
+}
